@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica,"微软雅黑";
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: .9rem;
+    background: #007BE3;
+    text-align: center;
+    line-height: .9rem;
+    font-size: 18px;
+    color: #fff;
+    .logo{
+        height: 80%;
+        vertical-align: middle;
+    }
+}
+.banner{
+    width: 100%;
+    height: auto;
+    .swiper-slide {
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+}
+.main{
+    width: 100%;
+    height: auto;
+    padding: .3rem .24rem .2rem;
+    background: #F5F6FA;
+    overflow: hidden;
+    .mianbao{
+        line-height:0px;
+        .shouye,.lujing{
+            font-size: 12px;
+            color: #494747;
+        }
+        .jian{
+            height: 12px;
+        }
+    }
+    .teacher{
+        display: block;
+        width: 100%;
+        height: 1.85rem;
+        background: #fff;
+        margin: .1rem 0;
+        padding: .2rem;
+        .lstu{
+            width: 1.93rem;
+            float: left;
+        }
+        .lsjieshao{
+            width: 4.2rem;
+            float: right;
+            height: 1.45rem;
+            position: relative;
+            img{
+                position: absolute;
+                width: 40px;
+                margin-left: 5px;
+                top: 10px;
+                left: 40px;
+            }
+            .lsname{
+                width: 55px;
+                color: #111111;
+                font-size: 12px;
+                line-height: 20px;
+                border-bottom: 1px dashed #999999;
+            }
+            .lszhiwei{
+                color: #94D43B;
+                font-size: 12px;
+                line-height: 20px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                span{
+                    font-size: 10px;
+                }
+            }
+            .lsjianjie{
+                color: #444444;
+                font-size: 12px;
+                line-height: 20px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+//跳转
+.tiaozhuan{
+    width: 100%;
+    height: .7rem;
+}
+//footer
+.footer{
+    width: 100%;
+    height: 1rem;
+    background: #F5F6FA;
+    padding-top: .1rem;
+    .about{
+        color: #666666;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+}

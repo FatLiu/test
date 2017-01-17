@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica,"微软雅黑";
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: .9rem;
+    background: #007BE3;
+    text-align: center;
+    line-height: .9rem;
+    font-size: 18px;
+    color: #fff;
+    .logo{
+        height: 80%;
+        vertical-align: middle;
+    }
+}
+.banner{
+    width: 100%;
+    height: auto;
+    .swiper-slide {
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+}
+.main{
+    width: 100%;
+    height: auto;
+    padding: .3rem .24rem .2rem;
+    background: #F5F6FA;
+    overflow: hidden;
+    .mianbao{
+        line-height:0px;
+        .shouye,.lujing{
+            font-size: 12px;
+            color: #494747;
+        }
+        .jian{
+            height: 12px;
+        }
+    }
+    .biaoti{
+        width: 100%;
+        height: auto;
+        background: #fff;
+        padding: .1rem .2rem .2rem .42rem;
+        margin-top: .2rem;
+        position: relative;
+        .gaikuo{
+            font-size: 12px;
+            font-weight: bolder;
+            color: #444444;
+            border-bottom: 1px dashed #999999;
+            line-height: .55rem;
+        }
+        .content{
+            font-size: 12px;
+            color: #666666;
+            line-height: 20px;
+            padding: .1rem 0 .2rem 0;
+        }
+        .shu{
+            position: absolute;
+            top: .25rem;
+            left: .2rem;
+            height: 12px;
+        }
+        .wenhua{
+            width: 100%;
+            padding: .36rem;
+            text-align: justify;
+            font-size: 0;
+            .whtu{
+                display: inline;
+                width: 1.33rem;
+            }
+            &:after{
+                content:"";
+                display: inline-block;
+                width: 100%;
+                height: 0;
+            }
+        }
+    }
+    .bm{
+        display: block;
+        width: 1.68rem;
+        height: 1.68rem;
+        margin: .2rem auto;
+        background: #F5F6FA;
+        img{
+            width: 1.68rem;
+        }
+    }
+}
+//报名
+
+//footer
+.footer{
+    width: 100%;
+    height: 1rem;
+    background: #F5F6FA;
+    padding-top: .1rem;
+    .about{
+        color: #666666;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+}

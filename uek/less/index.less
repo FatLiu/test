@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica,"微软雅黑";
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: .9rem;
+    background: #007BE3;
+    text-align: center;
+    line-height: .9rem;
+    font-size: 18px;
+    color: #fff;
+    .logo{
+        height: 80%;
+        vertical-align: middle;
+    }
+}
+.banner{
+    width: 100%;
+    height: auto;
+    .swiper-slide {
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+}
+.nav{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0.29rem 0.20rem;
+    background: #F5F6FA;
+    .daohang{
+        float: left;
+        width: 1.55rem;
+        height: auto;
+        border-radius: 0.25rem;
+        margin-right: .3rem;
+        .dhtu{
+            width: 100%;
+            margin: 0;
+        }
+        .dhzi{
+            font-size: 14px;
+            text-align: center;
+            margin: -5px 0 10px 0;
+            color: #4B4C4D;
+        }
+    }
+    .daohang:nth-child(4n){
+        margin-right: 0;
+    }
+}
+//服务体系
+.fuwu{
+    width: 100%;
+    height: auto;
+    .biaoti{
+        width: 100%;
+        height: 0.63rem;
+        text-align: center;
+        line-height: 0.63rem;
+        font-size: 16px;
+        color: #1378BA;
+        margin: 0;
+    }
+    .row1{
+        width: 100%;
+        height: 2.2rem;
+        border-top: 1px solid #E8E8E8;
+        border-bottom: 1px solid #E8E8E8;
+        .tese{
+            width: 50%;
+            float: left;
+            height: 2.18rem;
+            padding: .36rem .42rem .48rem .16rem;
+            position: relative;
+            .tesetu{
+                position: absolute;
+                bottom: .48rem;
+                right: .42rem;
+                width: 1.32em;
+            }
+            .tsdz{
+                font-size: 12px;
+                color: #000;
+                font-weight: bold;
+                line-height: 30px;
+            }
+            .tsxz{
+                width: auto;
+                font-size: 10px;
+                color: #999999;
+            }
+        }
+    }
+    .row2{
+        width: 100%;
+        height: 1.39rem;
+        border-bottom: 1px solid #E8E8E8;
+        .tese2{
+            width: 33.333333%;
+            float: left;
+            height: 1.38rem;
+            padding: .38rem 0 0 .8rem;
+            border-right: 1px solid #E8E8E8;
+            position: relative;
+            .tesetu2{
+                float: left;
+                width: .6rem;
+                margin-right: .1rem;
+                position: absolute;
+                top: .38rem;
+                left: .1rem;
+            }
+            .kuang{
+                float: left;
+                width: 1.681rem;
+                overflow: hidden;
+                .tsdz2{
+                    display: block;
+                    font-size: 12px;
+                    color: #000;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                .tsxz2{
+                    display: block;
+                    width: 1.68rem;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    font-size: 10px;
+                    color: #999999;
+                }
+            }
+        }
+    }
+}
+//footer
+.footer{
+    width: 100%;
+    height: 1.4rem;
+    background: #F5F6FA;
+    padding-top: .2em;
+    .footbox{
+        width: 100%;
+        height: .8rem;
+        background: #fff;
+        .connect{
+            float: left;
+            width: 33.333333%;
+            height: .8rem;
+            font-size: 12px;
+            line-height: .8rem;
+            padding-left: .2rem;
+            color: #090909;
+            .ctu{
+                width: .32rem;
+                vertical-align: middle;
+            }
+        }
+        .connect:nth-child(2){
+            background: #FF7E00;
+            box-shadow: 0 0 17px 2px rgba(255,144,0,.75);
+            border-radius: 7px;
+            text-align: center;
+            font-weight: bolder;
+            color: #fff;
+            font-size: 14px;
+            .ctu{
+                width: .34rem;
+            }
+        }
+        .connect:nth-child(3){
+            text-align: right;
+            padding-right: .2rem;
+        }
+    }
+}
