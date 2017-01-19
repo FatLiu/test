@@ -1,0 +1,191 @@
+﻿* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, "微软雅黑";
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: .9rem;
+  background: #007BE3;
+  text-align: center;
+  line-height: .9rem;
+  font-size: 18px;
+  color: #fff;
+}
+.header .logo {
+  height: 80%;
+  vertical-align: middle;
+}
+.banner {
+  width: 100%;
+  height: auto;
+}
+.banner .swiper-slide {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.main {
+  width: 100%;
+  height: auto;
+  padding: .3rem .24rem .2rem;
+  background: #F5F6FA;
+  overflow: hidden;
+}
+.main .mianbao {
+  line-height: 0px;
+}
+.main .mianbao .shouye,
+.main .mianbao .lujing {
+  font-size: 12px;
+  color: #494747;
+}
+.main .mianbao .jian {
+  height: 12px;
+}
+.main .biaoti {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: .1rem .2rem .2rem .42rem;
+  margin-top: .2rem;
+  position: relative;
+}
+.main .biaoti .gaikuo {
+  font-size: 12px;
+  font-weight: bolder;
+  color: #444444;
+  border-bottom: 1px dashed #999999;
+  line-height: .55rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .biaoti .content {
+  font-size: 12px;
+  color: #666666;
+  line-height: 20px;
+  padding: .1rem 0 .2rem 0;
+}
+.main .biaoti .tuijian {
+  font-size: 12px;
+  color: #000;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: -0.22rem;
+}
+.main .biaoti .tuijian img {
+  height: 12px;
+  vertical-align: middle;
+}
+.main .biaoti .shu {
+  position: absolute;
+  top: .25rem;
+  left: .2rem;
+  height: 12px;
+}
+.main .biaoti .wenhua {
+  width: 100%;
+  padding: .36rem;
+  text-align: justify;
+  font-size: 0;
+}
+.main .biaoti .wenhua .whtu {
+  display: inline;
+  width: 1.33rem;
+}
+.main .biaoti .wenhua:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}
+.main .tu {
+  width: 100%;
+  height: 3.62rem;
+  background: #474747;
+}
+.main .share {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: .1rem .2rem .2rem .42rem;
+  background: #fff;
+}
+.main .share .xuxian {
+  width: 100%;
+  border-bottom: 1px dashed #999999;
+}
+.main .share .shareto {
+  width: 100%;
+  height: auto;
+  padding-top: .1rem;
+}
+.main .share .shareto p {
+  float: left;
+  width: auto;
+  font-size: 12px;
+  color: #000000;
+  margin-top: .1rem;
+}
+.main .share .shareto a {
+  float: left;
+  font-size: 0;
+  padding: 0 .1rem;
+}
+.main .share .shareto a img {
+  width: .42rem;
+}
+.main .share .shareto .zan {
+  float: right;
+}
+.main .shangxia {
+  width: 100%;
+  height: auto;
+  padding: .1rem .2rem .2rem .42rem;
+  overflow: hidden;
+}
+.main .shangxia p {
+  width: 100%;
+  font-size: 12px;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: .1rem 0;
+}
+.main .shangxia p a {
+  font-size: 12px;
+  color: #01B5FF;
+}
+.footer {
+  width: 100%;
+  height: 1rem;
+  background: #F5F6FA;
+  padding-top: .1rem;
+}
+.footer .about {
+  color: #666666;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}

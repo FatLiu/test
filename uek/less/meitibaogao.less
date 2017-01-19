@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica,"微软雅黑";
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: .9rem;
+    background: #007BE3;
+    text-align: center;
+    line-height: .9rem;
+    font-size: 18px;
+    color: #fff;
+    .logo{
+        height: 80%;
+        vertical-align: middle;
+    }
+}
+.banner{
+    width: 100%;
+    height: auto;
+    .swiper-slide {
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+}
+.main{
+    width: 100%;
+    height: auto;
+    padding: .3rem .24rem .2rem;
+    background: #F5F6FA;
+    overflow: hidden;
+    .mianbao{
+        line-height:0px;
+        .shouye,.lujing{
+            font-size: 12px;
+            color: #494747;
+        }
+        .jian{
+            height: 12px;
+        }
+    }
+}
+.cent1 {
+    padding: .18rem .24rem .28rem;
+    background: #fff;
+    overflow: hidden;
+    color:#494747;
+    margin-bottom:1px;
+    margin-top:.2rem;
+    .box{
+        position: relative;
+        overflow:hidden;
+        height:2.22rem;
+        display:block;
+        .line{
+            width:1.93rem; height:1.45rem;
+            box-sizing: border-box;
+            border:1px solid #01B5FF;
+            position:absolute;
+            left: .1rem; top: .45rem;
+            div{
+                height:4px; width:4px;
+                background:#01B5FF;
+                position:absolute;
+                border-radius: 50%;
+                &:nth-of-type(1){
+                    top:-2px; left:-2px;
+                }
+                &:nth-of-type(2){
+                    top:-2px; right:-2px;
+                }
+                &:nth-of-type(3){
+                     bottom:-2px; right:-2px;
+                }
+            }
+        }
+        h3{
+            color:#000;
+            font-size:14px;
+            margin:0;
+            margin-bottom:.26rem;
+            padding: 0;
+        }
+        img{
+            width:1.93rem; height:1.45rem;
+            position:relative;
+            display:block;
+            float: left;
+            z-index: 1;
+            margin-right:.4rem;
+        }
+        p{
+            color:#494747;
+            font-size:12px;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+            line-height: .36rem;       
+            &:nth-of-type(1){
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+            }
+            &:nth-of-type(2){
+                white-space: nowrap;
+            }
+        }
+    }
+    .num{
+        padding:.15rem 0;
+        border-top:1px solid #D2D2D2;
+        border-bottom:1px solid #D2D2D2;
+        margin-top:.19rem;
+        overflow:hidden;
+        text-align:justify;
+        font-size:0;
+        .numCent{
+            font-size:12px;
+            overflow:hidden;
+            display:inline-block;
+            img{
+                width:.3rem;
+                float: left;
+                margin-right:.1rem;
+            }
+            span{
+                float: left;
+            }
+        }
+        &:after{
+            content:"";
+            display:inline-block;
+            width:100%;
+        }
+    }
+}
+//跳转
+.tiaozhuan{
+    width: 100%;
+    height: .7rem;
+    padding: .18rem .2rem 0;
+    font-size: 0;
+    a{
+        float: left;
+        padding: 0 .07rem;
+        .pre,.next{
+            width: .58rem;
+        }
+        .num{
+            width: .32rem;
+        }
+    }
+    p{
+        float: right;
+        font-size: .16rem;
+        input{
+            border: 1px double #E5E5E5;
+            width: .56rem;
+            height: .3rem;
+            border-radius: .1rem;
+            margin: 0 .05rem;
+        }
+    }
+}
+//footer
+.footer{
+    width: 100%;
+    height: 1rem;
+    background: #F5F6FA;
+    padding-top: .1rem;
+    .about{
+        color: #666666;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+}

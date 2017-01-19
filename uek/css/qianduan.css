@@ -1,0 +1,244 @@
+﻿* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, "微软雅黑";
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: .9rem;
+  background: #007BE3;
+  text-align: center;
+  line-height: .9rem;
+  font-size: 18px;
+  color: #fff;
+}
+.header .logo {
+  height: 80%;
+  vertical-align: middle;
+}
+.banner {
+  width: 100%;
+  height: auto;
+}
+.banner .swiper-slide {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.main {
+  width: 100%;
+  height: auto;
+  padding: .3rem .24rem .2rem;
+  background: #F5F6FA;
+  overflow: hidden;
+}
+.main .mianbao {
+  line-height: 0px;
+}
+.main .mianbao .shouye,
+.main .mianbao .lujing {
+  font-size: 12px;
+  color: #494747;
+}
+.main .mianbao .jian {
+  height: 12px;
+}
+.main .biaoti {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: .1rem .2rem .2rem .42rem;
+  margin-top: .2rem;
+  position: relative;
+}
+.main .biaoti .gaikuo {
+  font-size: 12px;
+  font-weight: bolder;
+  color: #444444;
+  border-bottom: 1px dashed #999999;
+  line-height: .55rem;
+}
+.main .biaoti .content {
+  font-size: 12px;
+  color: #666666;
+  line-height: 20px;
+  padding: .1rem 0 .2rem 0;
+  text-align: center;
+}
+.main .biaoti .content span {
+  color: #01B5FF;
+}
+.main .biaoti .content img {
+  margin-top: -0.2rem;
+  width: 100%;
+}
+.main .biaoti .content span {
+  font-size: 12px;
+  color: #0E050A;
+}
+.main .biaoti .shu {
+  position: absolute;
+  top: .25rem;
+  left: .2rem;
+  height: 12px;
+}
+.main .biaoti .wenhua {
+  width: 100%;
+  padding: .36rem .2rem .1rem .1rem;
+  text-align: justify;
+  font-size: 0;
+}
+.main .biaoti .wenhua .good {
+  width: auto;
+  display: inline-block;
+}
+.main .biaoti .wenhua .good .whtu {
+  display: block;
+  width: 1.2rem;
+}
+.main .biaoti .wenhua .good p {
+  width: 1.2rem;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+  padding: .15rem 0;
+}
+.main .biaoti .wenhua:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}
+.main .bm {
+  display: block;
+  width: 1.68rem;
+  height: 1.68rem;
+  margin: .2rem auto;
+  background: #F5F6FA;
+}
+.main .bm img {
+  width: 1.68rem;
+}
+.zhiye {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: .2rem;
+}
+.zhiye img {
+  float: left;
+  width: .56rem;
+}
+.zhiye .mingcheng {
+  float: left;
+  width: 5.6rem;
+  overflow: hidden;
+}
+.zhiye .mingcheng .ch {
+  font-size: 12px;
+  color: #01B5FF;
+  padding: .05rem 0 .05rem .2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zhiye .mingcheng .en {
+  font-size: 10px;
+  color: #3E3A39;
+  padding: 0 0 0 .2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.xyrow {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.xyrow .xyname,
+.xyrow .xyxinzi,
+.xyrow .xyfuli {
+  width: 16.666667%;
+  font-size: 12px;
+  line-height: .4rem;
+  text-align: center;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.xyrow .xyxinzi {
+  width: 25%;
+}
+.xyrow .xyfuli {
+  width: 58.333333%;
+}
+.jtrow {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.jtrow .jtname,
+.jtrow .jtxinzi,
+.jtrow .jtfuli {
+  width: 16.666667%;
+  font-size: 12px;
+  line-height: .4rem;
+  text-align: center;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.jtrow img {
+  position: absolute;
+  top: 0.04rem;
+  left: 0rem;
+  height: .4rem;
+  z-index: 1;
+}
+.jtrow .jtxinzi {
+  width: 25%;
+  color: #FFA201;
+}
+.jtrow .jtfuli {
+  width: 58.333333%;
+}
+.jtrow:after,
+.jtrow:before {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+.footer {
+  width: 100%;
+  height: 1rem;
+  background: #F5F6FA;
+  padding-top: .1rem;
+}
+.footer .about {
+  color: #666666;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}

@@ -1,4 +1,4 @@
-* {
+﻿* {
   box-sizing: border-box;
 }
 body {
@@ -60,56 +60,105 @@ a {
 .main .mianbao .jian {
   height: 12px;
 }
-.main .teacher {
-  display: block;
-  width: 100%;
-  height: 1.85rem;
+.cent1 {
+  padding: .18rem .24rem .28rem;
   background: #fff;
-  margin: .1rem 0;
-  padding: .2rem;
+  overflow: hidden;
+  color: #494747;
+  margin-bottom: 1px;
+  margin-top: .2rem;
 }
-.main .teacher .lstu {
+.cent1 .box {
+  position: relative;
+  overflow: hidden;
+  height: 2.22rem;
+  display: block;
+}
+.cent1 .box .line {
   width: 1.93rem;
-  float: left;
+  height: 1.45rem;
+  box-sizing: border-box;
+  border: 1px solid #01B5FF;
+  position: absolute;
+  left: .1rem;
+  top: .45rem;
 }
-.main .teacher .lsjieshao {
-  width: 4.2rem;
-  float: right;
+.cent1 .box .line div {
+  height: 4px;
+  width: 4px;
+  background: #01B5FF;
+  position: absolute;
+  border-radius: 50%;
+}
+.cent1 .box .line div:nth-of-type(1) {
+  top: -2px;
+  left: -2px;
+}
+.cent1 .box .line div:nth-of-type(2) {
+  top: -2px;
+  right: -2px;
+}
+.cent1 .box .line div:nth-of-type(3) {
+  bottom: -2px;
+  right: -2px;
+}
+.cent1 .box h3 {
+  color: #000;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: .26rem;
+  padding: 0;
+}
+.cent1 .box img {
+  width: 1.93rem;
   height: 1.45rem;
   position: relative;
+  display: block;
+  float: left;
+  z-index: 1;
+  margin-right: .4rem;
 }
-.main .teacher .lsjieshao img {
-  position: absolute;
-  width: 40px;
-  margin-left: 5px;
-  top: 10px;
-  left: 40px;
-}
-.main .teacher .lsjieshao .lsname {
-  width: 55px;
-  color: #111111;
+.cent1 .box p {
+  color: #494747;
   font-size: 12px;
-  line-height: 20px;
-  border-bottom: 1px dashed #999999;
-}
-.main .teacher .lsjieshao .lszhiwei {
-  color: #94D43B;
-  font-size: 12px;
-  line-height: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-height: .36rem;
+}
+.cent1 .box p:nth-of-type(1) {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.cent1 .box p:nth-of-type(2) {
   white-space: nowrap;
 }
-.main .teacher .lsjieshao .lszhiwei span {
-  font-size: 10px;
-}
-.main .teacher .lsjieshao .lsjianjie {
-  color: #444444;
-  font-size: 12px;
-  line-height: 20px;
+.cent1 .num {
+  padding: .15rem 0;
+  border-top: 1px solid #D2D2D2;
+  border-bottom: 1px solid #D2D2D2;
+  margin-top: .19rem;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  text-align: justify;
+  font-size: 0;
+}
+.cent1 .num .numCent {
+  font-size: 12px;
+  overflow: hidden;
+  display: inline-block;
+}
+.cent1 .num .numCent img {
+  width: .3rem;
+  float: left;
+  margin-right: .1rem;
+}
+.cent1 .num .numCent span {
+  float: left;
+}
+.cent1 .num:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
 .tiaozhuan {
   width: 100%;
