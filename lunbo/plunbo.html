@@ -18,7 +18,6 @@
     }
     .aa{
         width: 100%;
-        background: red;
         overflow: hidden;
     }
     .box{
@@ -96,8 +95,8 @@
             box.css({transform:"translate("+(bx-ax-i*pw)+"px)"});
         }
         function end(e){
-            window.removeEventListener("touchmove",move);
-            window.removeEventListener("touchend",end);
+            box[0].removeEventListener("touchmove",move);
+            box[0].removeEventListener("touchend",end);
             t=setInterval(lunbo,3000);
             var date2 =new Date();
             jieshu=date2.getTime();
@@ -117,8 +116,8 @@
                 box.css({transition:".3s",transform:"translate("+(-i*pw)+"px)"});
             }
         }
-        window.addEventListener("touchmove",move);
-        window.addEventListener("touchend",end);
+        box[0].addEventListener("touchmove",move);
+        box[0].addEventListener("touchend",end);
     })
 </script>
 </html>
