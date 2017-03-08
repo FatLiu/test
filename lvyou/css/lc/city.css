@@ -130,7 +130,7 @@ body {
 .main .zimutiao {
   position: fixed;
   right: .24rem;
-  top: 2rem;
+  bottom: 0;
   width: .28rem;
   height: 10.47rem;
   background: url(../../images/lc/zimutiao.png) no-repeat 0 0 / cover;

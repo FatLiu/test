@@ -147,7 +147,7 @@ section.pro-list .pro{
     background: url(../../images/lc/b2.png) no-repeat center center/cover;
     display: flex;
     flex-direction: column;
-    font-size: 9px;
+    font-size: 12px;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0 0.27rem;
@@ -185,6 +185,8 @@ section.pro-list .pro .pro-ad .pro-ad-left{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding:.05rem 0;
+    box-sizing:border-box;
 
 }
 section.pro-list .pro .pro-ad .pro-ad-left span{
@@ -214,9 +216,9 @@ section.pro-list .pro .pro-ad .pro-ad-right{
 //     justify-content: space-around;
 //     background: url(../../images/lc/ding.png) no-repeat center center /cover;
 // }
-section.pro-list .pro .pro-ad .pro-ad-right span:last-of-type i{
-    font-style: normal;
-}
+// section.pro-list .pro .pro-ad .pro-ad-right span:last-of-type i{
+//     font-style: normal;
+// }
 .lianjie{
     width: 0.74rem;
     height: 0.74rem;
@@ -224,6 +226,10 @@ section.pro-list .pro .pro-ad .pro-ad-right span:last-of-type i{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color:#FF1F45;
     justify-content: space-around;
     background: url(../../images/lc/ding.png) no-repeat center center /cover;
+}
+.lianjie i{
+    font-style: normal;
 }
